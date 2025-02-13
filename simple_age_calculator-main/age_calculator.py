@@ -1,0 +1,7 @@
+print("Welcome to age calculator.")
+question = input("Would you like to know how old you will be in a particular year?")
+user_year = input("What year were you born in? ")
+future_year = input("What year did you want to know about? ")
+calc_age = int(future_year) -int(user_year)
+print('In the year ', future_year, 'you will be ', calc_age, 'years old.')
+print('Goodbye')
