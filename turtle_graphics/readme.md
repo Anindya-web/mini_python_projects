@@ -27,3 +27,18 @@ This project uses Python's `turtle` module to draw a simple letter "T" on the sc
 
 - **Turtle 2 (Orange):**  
   Draws the horizontal line of the "T".
+
+
+______________________________________________________________________________
+
+# Simple Turtle L-Shape
+
+This project demonstrates a basic example of Python's `turtle` module by drawing an L-shaped design with two turtles in different colors.
+
+## Features
+
+- **Blue Turtle:** Draws a vertical line.
+- **Orange Turtle:** Draws a horizontal line.
+- Simple and fun introduction to turtle graphics.
+
+_______________________________________________________________________________
