@@ -41,4 +41,34 @@ This project demonstrates a basic example of Python's `turtle` module by drawing
 - **Orange Turtle:** Draws a horizontal line.
 - Simple and fun introduction to turtle graphics.
 
-_______________________________________________________________________________
+_____________________________________________________________________________
+# spiral_turtle.py 
+
+This project uses Python's `turtle` module to create a dynamic spiral pattern. With each iteration, the turtle moves forward a little further and turns by a slightly smaller angle, producing an intriguing design.
+
+## How It Works
+
+- **Starting Values:**  
+  The turtle begins with an initial forward distance of 50 units and an initial turning angle of 90 degrees.
+  
+- **Dynamic Changes:**  
+  In each of the 15 iterations:
+  - The turtle moves forward by the current distance.
+  - It then turns right by the current angle.
+  - The forward distance is increased by 4 units.
+  - The turning angle is decreased by 4 degrees.
+
+
+## How to Run
+
+1. **Save the Code:**  
+   Save the following code in a file named `spiral_turlte.py`:
+
+2. **Execute the Script:**  
+   Open your terminal or command prompt, navigate to the directory where `dynamic_turtle_spiral.py` is located, and run:
+   ```
+   python dynamic_turtle_spiral.py
+   ```
+
+3. **Enjoy the Pattern:**  
+   A window will open showing the dynamic spiral pattern drawn by the turtle.
