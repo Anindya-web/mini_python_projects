@@ -96,3 +96,28 @@ This program uses Python's turtle graphics to create a spiral pattern by stampin
 - **Exit Condition:**  
   The window remains open until you click on it.
 
+____________________________________________________________
+
+# Turtle Stamp Circle
+
+This program uses Python's turtle module to create a circular pattern of turtle stamps.
+
+## How It Works
+
+- **Window Setup:**  
+  A white background window is created.
+
+- **Turtle Setup:**  
+  A turtle with a black color and turtle shape is initialized, and its pen is lifted so it doesn't draw lines while moving.
+
+- **Stamping Process:**  
+  The turtle performs the following steps in a loop (10 iterations):
+  1. Moves forward by 50 units.
+  2. Leaves a stamp at its current position.
+  3. Moves backward 50 units to return to the starting point.
+  4. Rotates 36 degrees to prepare for the next stamp.
+
+- **Exit Condition:**  
+  The window remains open until you click on it.
+
+Enjoy watching the turtle create a neat circular pattern!
