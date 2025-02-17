@@ -72,3 +72,27 @@ This project uses Python's `turtle` module to create a dynamic spiral pattern. W
 
 3. **Enjoy the Pattern:**  
    A window will open showing the dynamic spiral pattern drawn by the turtle.
+
+_________________________________________________________
+
+# Stamp Spiral
+
+This program uses Python's turtle graphics to create a spiral pattern by stamping a turtle shape repeatedly as it moves.
+
+## How It Works
+
+- **Window Setup:**  
+  A window with a light green background is created.
+  
+- **Turtle Creation:**  
+  A blue turtle (named `u1`) with a turtle shape is created.
+
+- **Drawing Process:**  
+  The turtle's pen is lifted so that no lines are drawn. In a loop:
+  - The turtle stamps its current position.
+  - It moves forward by an increasing distance.
+  - It turns right slightly (2 degrees) before the next stamp.
+  
+- **Exit Condition:**  
+  The window remains open until you click on it.
+
